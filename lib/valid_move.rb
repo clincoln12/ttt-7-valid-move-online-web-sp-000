@@ -1,7 +1,10 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  if 3.between?(1, 9)
+  
+  x = user input
+  
+  if x.between?(1, 9)
     return true
   end
 end
