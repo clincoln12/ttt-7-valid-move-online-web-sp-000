@@ -2,7 +2,7 @@
 
 def valid_move?(board, index)
   
-  x = user input
+  x = gets.input
   
   if x.between?(1, 9)
     return true
